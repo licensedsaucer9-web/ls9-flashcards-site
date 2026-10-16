@@ -3,7 +3,7 @@
   "release": {
     "schema": 1,
     "version": "1.3.0",
-    "sourceCommit": "d79a50ed2e1bbc57909995eb6474dab89b0b5347",
+    "sourceCommit": "4a5687638f3974b13188601670a7ea5504d5f3c9",
     "sourceDirty": false,
     "basePath": "/ls9-flashcards-site/",
     "backend": "firebase",
@@ -18,18 +18,18 @@
     "app-icon.svg": "629531c35e46fe0983fc916d50050138aa716b55cb5a9cf169736a47e8ae0244",
     "apple-touch-icon.png": "219e6e2dab985b8948378977744785863a59dfcd4698302d2375f72339ce1eb9",
     "assets/index-BMqGusXA.css": "f751fa2cfd20538b3d447e220c4cc7dad145d999b60174f677137cfbbd16149b",
-    "assets/index-DzM5ak7S.js": "756779cb595925e0292fecbc5b75c897d1dd74e18b24ea494511ccda2ad38beb",
+    "assets/index-lgD5LFgT.js": "f1b095bb7e16268e847b610d0d26246ecd354370f4a5ce051a8d004cd395a822",
     "assets/workbox-window.prod.es5-Bd17z0YL.js": "17bcc17d60dc78f927834b880c39649b03af46fd1f5cdbb8c42c5ae2b515dce9",
     "favicon.svg": "d4b6e4727eb75bd9137286025ab9a2d383a8cdc3b7033e2fe44460b41693100d",
-    "index.html": "de414d6605b0080637269cd484a31de2b7d986265048a9a834798f0be558ed5a",
+    "index.html": "8276971f0b26bc68211daebf13c6a661fb16c97c2189ced4df3a952a0b89a15f",
     "manifest.webmanifest": "9e789852d6ddbdb7f2f277fa4ae24f38d1e1b76c24d400913410e0c0f9427888",
     "pwa-192.png": "d8e2f5f6e6660e770aa5477bdcaeaa6dc11fbc2dc70dff2385fe5a56c8ec39bb",
     "pwa-512-maskable.png": "9b9760102ba8c8873bcf6dac3a4bebbf396bd4c2176de74a659c2abacf5d3db7",
     "pwa-512.png": "38f560b16ea479a147a8a0b8337f5f613df8e98f77ecddd0d80ed8e270c91286",
-    "release.json": "af190c8b9ecba099e58021280608edaa8ffb95914b76fb0ff554427ebee86e42",
+    "release.json": "bc0d494616eefaa93341c38b32f168cf06159b694fc1ab1acc99b20801f684c6",
     "sample.csv": "eb1c1f2f0ad2279c670e021913b90948d8fbe2c391783731c244b18e3d5c7b80",
-    "sw.js": "1299dffa80797c03f31d686042dd54a71df00d65b3dd0c463314c619a382dd86",
+    "sw.js": "0f2998a3f7aefb340339ca9d354a5f9c1bcd48467d3184cd55bfa4317509d84f",
     "workbox-2fbc6a65.js": "39c2e6ae44c3f29666f6a328b6523bf13a053a1d95c74af8ddea82b1045b0b6e"
   },
-  "sha256": "f7111a48d57425105c564966d8d6321310bc34242082405425d983ac92c9aeee"
+  "sha256": "ffbb2c0b2bfc7dc0855fe6d43c73234365aaf6c62db6707bf05fe0b8209339fd"
 }
