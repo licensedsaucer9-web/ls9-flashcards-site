@@ -2,8 +2,8 @@
   "schema": 1,
   "release": {
     "schema": 1,
-    "version": "1.4.0",
-    "sourceCommit": "1e219d19b458e4ff554c4caf907f84d1d85051a4",
+    "version": "1.4.1",
+    "sourceCommit": "3a46952fa44cf0e6c066a66639ef77723323944b",
     "sourceDirty": false,
     "basePath": "/ls9-flashcards-site/",
     "backend": "firebase",
@@ -18,18 +18,18 @@
     "app-icon.svg": "629531c35e46fe0983fc916d50050138aa716b55cb5a9cf169736a47e8ae0244",
     "apple-touch-icon.png": "219e6e2dab985b8948378977744785863a59dfcd4698302d2375f72339ce1eb9",
     "assets/index-B5jnADEP.css": "5668161192f7dd9d05b93bcf065b600c9e143e7cbd2c6f9ec69fe185feb4e336",
-    "assets/index-Cu3lrMN3.js": "25a131c6836b6b9b79abd861307dd676b5416190cf1aab8e3c4a82d9fe52ab3c",
+    "assets/index-CVg-GIuC.js": "3d585d7c550425ff4695b9e5e23d3d5dfb04f26e1bd9d8e33f4588cdc0944464",
     "assets/workbox-window.prod.es5-Bd17z0YL.js": "17bcc17d60dc78f927834b880c39649b03af46fd1f5cdbb8c42c5ae2b515dce9",
     "favicon.svg": "d4b6e4727eb75bd9137286025ab9a2d383a8cdc3b7033e2fe44460b41693100d",
-    "index.html": "395077ceef64270f0760b3da1be12860e8a1a4f265441236f831065a804bdcfe",
+    "index.html": "1314587ece005a36232f68f91fadf905a31ea3bf0e4ef8beb89f56cfb5d4eb8c",
     "manifest.webmanifest": "9e789852d6ddbdb7f2f277fa4ae24f38d1e1b76c24d400913410e0c0f9427888",
     "pwa-192.png": "d8e2f5f6e6660e770aa5477bdcaeaa6dc11fbc2dc70dff2385fe5a56c8ec39bb",
     "pwa-512-maskable.png": "9b9760102ba8c8873bcf6dac3a4bebbf396bd4c2176de74a659c2abacf5d3db7",
     "pwa-512.png": "38f560b16ea479a147a8a0b8337f5f613df8e98f77ecddd0d80ed8e270c91286",
-    "release.json": "e2af76920b06790bb7a73d42a16a2583ff62058c93cb875fd42d9aa026d45714",
+    "release.json": "d0f95806e99107923937211455a6cce3f062113038d05fa583972ee25b8f9052",
     "sample.csv": "eb1c1f2f0ad2279c670e021913b90948d8fbe2c391783731c244b18e3d5c7b80",
-    "sw.js": "681b4bfdf64c7e6ae80b8b9e8d7b7a77da8d09e14208894d4eb90e1221637894",
+    "sw.js": "b0e77ee7cb8dd20d90bc8d5e8e68de580eb7f766dda4eaba780d16c16efd5634",
     "workbox-2fbc6a65.js": "39c2e6ae44c3f29666f6a328b6523bf13a053a1d95c74af8ddea82b1045b0b6e"
   },
-  "sha256": "c5ed129dd1e9ae1b3d913f42ec82498b254acab4652e4d0b09bca546c63c3877"
+  "sha256": "670a5f7328116c4f6123fdea32726719515086f97acffc0af58ff9d0db70aefa"
 }
