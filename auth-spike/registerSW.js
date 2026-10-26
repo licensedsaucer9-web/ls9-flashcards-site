@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ls9-flashcards-site/auth-spike/sw.js', { scope: '/ls9-flashcards-site/auth-spike/' })})}

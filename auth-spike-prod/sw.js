@@ -1,1 +1,15 @@
-if(!self.define){let e,i={};const n=(n,r)=>(n=new URL(n+".js",r).href,i[n]||new Promise(i=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=i,document.head.appendChild(e)}else e=n,importScripts(n),i()}).then(()=>{let e=i[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e}));self.define=(r,s)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(i[c])return;let d={};const t=e=>n(e,c),o={module:{uri:c},exports:d,require:t};i[c]=Promise.all(r.map(e=>o[e]||t(e))).then(e=>(s(...e),d))}}define(["./workbox-9c191d2f"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"registerSW.js",revision:"64eb347ba8a764c0e8ff2e4805bb850d"},{url:"pwa-512.png",revision:"e8b38b8bd0c3494ccdcdc402d3d32f76"},{url:"pwa-192.png",revision:"4b198cdc2146896d359a2eb110d9d67c"},{url:"manifest.webmanifest",revision:"19e3b9a0458799124c227d831144f2e6"},{url:"index.html",revision:"2cce9fb6d204a1e0543a6b62f3c930eb"},{url:"assets/index-Bc03PoTS.js",revision:null},{url:"pwa-192.png",revision:"4b198cdc2146896d359a2eb110d9d67c"},{url:"pwa-512.png",revision:"e8b38b8bd0c3494ccdcdc402d3d32f76"},{url:"manifest.webmanifest",revision:"19e3b9a0458799124c227d831144f2e6"}],{}),e.cleanupOutdatedCaches(),e.registerRoute(new e.NavigationRoute(e.createHandlerBoundToURL("index.html"),{denylist:[/\/rehearsal\//]}))});
+// Replaces the service worker of a retired preview (#118). A browser that still has the old worker
+// installed fetches this file at the same URL, so the worker removes only its own scope's caches,
+// unregisters itself and sends open tabs to the real app. Caches are shared by the whole origin, so
+// only workbox precache names that end in this scope are touched.
+self.addEventListener('install', () => self.skipWaiting())
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    const scope = self.registration.scope
+    for (const name of await caches.keys()) if (name.endsWith(scope)) await caches.delete(name)
+    const tabs = await self.clients.matchAll({ type: 'window' })
+    await self.registration.unregister()
+    const home = new URL('../', scope).href
+    for (const tab of tabs) tab.navigate(home).catch(() => {})
+  })())
+})
