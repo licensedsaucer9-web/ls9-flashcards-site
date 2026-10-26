@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "1.5.0",
-  "sourceCommit": "b8097bec3e047f54bc3eba10b2be8693b1ba2218",
+  "sourceCommit": "d2f7d54dfcc9481e0ce3b33b90a0bc8547243f36",
   "sourceDirty": false,
   "basePath": "/ls9-flashcards-site/",
   "backend": "firebase",
