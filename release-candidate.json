@@ -3,7 +3,7 @@
   "release": {
     "schema": 1,
     "version": "1.5.0",
-    "sourceCommit": "f85d85a6d774ff2e2fd849ed65d01ba17184499c",
+    "sourceCommit": "7bc17d3553b90b7a8893997fd2c57636bd203dc4",
     "sourceDirty": false,
     "basePath": "/ls9-flashcards-site/",
     "backend": "firebase",
@@ -17,19 +17,19 @@
     "app-icon-maskable.svg": "d2e8052c9b5ea8be36d0210d6fc3944121bfbd635a45fe863439145cc3b29423",
     "app-icon.svg": "629531c35e46fe0983fc916d50050138aa716b55cb5a9cf169736a47e8ae0244",
     "apple-touch-icon.png": "219e6e2dab985b8948378977744785863a59dfcd4698302d2375f72339ce1eb9",
-    "assets/index-C2ORCaHp.js": "d6a9a39b8d02964f32ae7dec7e0b2d057102fb8dc0a528ccfb7efef6dd186cb5",
+    "assets/index-BE6LIkbT.js": "7a877713b58e9152ac00a1dd995dd0cfb5260954922206b1aedf0f759b9ea011",
     "assets/index-CEKj6CcN.css": "a4381df0d6bdb150352510521806eccda71a7a8fe6a6f18d6d4a93866666d712",
     "assets/workbox-window.prod.es5-Bd17z0YL.js": "17bcc17d60dc78f927834b880c39649b03af46fd1f5cdbb8c42c5ae2b515dce9",
     "favicon.svg": "d4b6e4727eb75bd9137286025ab9a2d383a8cdc3b7033e2fe44460b41693100d",
-    "index.html": "9353e815d53c6ebfe81a0503f44a0307c4f979af2d8aa4b2b4fc55959924a336",
+    "index.html": "f1c9f931c068ea30e27b642549dbd1cba7c51c459fea566c3fd7f1f8568f339a",
     "manifest.webmanifest": "9e789852d6ddbdb7f2f277fa4ae24f38d1e1b76c24d400913410e0c0f9427888",
     "pwa-192.png": "d8e2f5f6e6660e770aa5477bdcaeaa6dc11fbc2dc70dff2385fe5a56c8ec39bb",
     "pwa-512-maskable.png": "9b9760102ba8c8873bcf6dac3a4bebbf396bd4c2176de74a659c2abacf5d3db7",
     "pwa-512.png": "38f560b16ea479a147a8a0b8337f5f613df8e98f77ecddd0d80ed8e270c91286",
-    "release.json": "c7608316705b7c4bda16dcaf033e2d45c129b257a89f40ea88d5fa12b7fb94ad",
+    "release.json": "85a5ebf9e58cc614e01ff34ad7637c209e782467787d32294bca5ba2503bc6d0",
     "sample.csv": "eb1c1f2f0ad2279c670e021913b90948d8fbe2c391783731c244b18e3d5c7b80",
-    "sw.js": "13a5ea23c6a6b5fb29f0f43385a045e3fcedcff3940099598ebccd1435d56ad4",
+    "sw.js": "9eff267321f42bb677b26052eba5392f714ad88dd8adca6f0f6642fa8c1cd4da",
     "workbox-2fbc6a65.js": "39c2e6ae44c3f29666f6a328b6523bf13a053a1d95c74af8ddea82b1045b0b6e"
   },
-  "sha256": "daee44762ca309f900d640bceb6a534326f58138e0bbff83910861172e67c32d"
+  "sha256": "b03f8cb83f689ea6e1645d0bc98c9f4ad55c4e0915bf4069126c105e2c1779cb"
 }
